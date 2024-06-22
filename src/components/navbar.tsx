@@ -8,10 +8,18 @@ const Navbar = () => {
         <img src={logo} alt="MyLogo" className="mx-2 w-10 h-10" />
       </div>
       <div className="m-8 flex items-center justify-center gap-4 text-3xl">
-        <FaLinkedin />
-        <FaGithub />
-        <FaInstagram />
-        <FaTwitterSquare />
+        <a href="https://www.linkedin.com/in/achyutkatiyar2103/" target="_blank" rel="noopener noreferrer">
+          <FaLinkedin />
+        </a>
+        <a href="https://github.com/Achyut21" target="_blank" rel="noopener noreferrer">
+          <FaGithub />
+        </a>
+        <a href="https://www.instagram.com/waterlaw_attinx/" target="_blank" rel="noopener noreferrer">
+          <FaInstagram />
+        </a>
+        <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
+          <FaTwitterSquare />
+        </a>
       </div>
     </nav>
   );

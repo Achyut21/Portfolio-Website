@@ -9,32 +9,33 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
-  },
-  {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
-  },
-  {
-    year: "2021 - 2022",
+    year: "2024 - Present",
     role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
+    company: "SRM University - AP",
+    description: `Designed and implemented a web portal for faculty-student collaboration in UROP and Capstone projects, optimizing project management.
+    Enhanced user experience with React.js and Next.js, ensuring seamless navigation and responsiveness. Achieved a 75% grading improvement and a 50% process efficiency boost for streamlined project monitoring and assessment.`,
+    technologies: ["Javascript", "React.js", "Next.js", "mongoDB","Firebase", "Tailwind CSS"],
   },
   {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    year: "2023 - 2024",
+    role: "Technical Intern",
+    company: "SRM University - AP",
+    description: `Directed technical operations for university events, encompassing website development, payment gateway management, and design of promotional materials such as posters and flyers. Innovated event technology solutions, for 75% increase in user satisfaction and a 60% improvement in process efficiency. Coordinated cross-functional efforts to ensure seamless execution of events, for 95% client satisfaction.`,
+    technologies: [ "React+Vite", "mySQL", "ExpressJS", "Django", "PostgreSQL" ],
+  },
+  {
+    year: "2022 - 2022",
+    role: "Research Intern",
+    company: "SRM University - AP",
+    description: `Developed an AI ML model predicting student acceptance into Masters PG College with 78% accuracy, trained on diverse exam scores to suggest colleges based on proximity to students’ IELTS, GRE, and TOEFL scores. Led data acquisition and cleansing, ensuring dataset integrity with a 95% accuracy rate, optimizing for efficiency and reliability.`,
+    technologies: ["Python", "Artificial Intelligence", "Machine Learning", "Neural Networks"],
+  },
+  {
+    year: "2023 - 2024",
+    role: "Technical Executive",
+    company: "Student Council | SRM University - AP",
+    description: `As a Technical Executive in the student council, I led the tech team, managing digital tools for events and communication. I ensured smooth technical operations, handled 135 projects, supported 80+ events, troubleshot issues, trained members on software, and implemented innovative tech solutions to enhance the council's efficiency and outreach.`,
+    technologies: [ "next.js+chadcn/ui", "Cloudflare","Canva", "Photoshop", "After Effects"],
   },
 ];
 
