@@ -5,7 +5,6 @@ import { DiRedis } from "react-icons/di";
 import { FaNode } from "react-icons/fa";
 import { BiLogoPostgresql } from "react-icons/bi";
 import { motion, useAnimation } from "framer-motion";
-import { useEffect } from "react";
 import { useMediaQuery } from "react-responsive";
 
 const levitateUp = (delay = 0) => ({
