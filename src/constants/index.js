@@ -1,4 +1,4 @@
-import project1 from "../assets/projects/project-1.jpg";
+import project1 from "../assets/projects/project-1.jpeg"
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
@@ -41,32 +41,32 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "PokeArena | NFT Trading Webiste",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "Enhanced Trading and Security: Traditional card trading is fraught with issues like damage, loss, and counterfeiting. Our app digitizes Pokémon cards as NFTs, ensuring each card's uniqueness and authenticity. Users can trade, buy, and sell these cards in a secure, transparent e-marketplace, eliminating concerns over fraud and damage.",
+    technologies: ["Node.js", "Express.js", "Move", "FEWCHA wallet", "WEB3"],
   },
   {
-    title: "Task Management App",
+    title: "INFINITUS | Ticket Booking Website",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "Led the development of the Infinitus Fest website, attracting 20,000 students with 6,000 registrations across 10 events, and emphasizing crowd loading optimization. Integrated payment gateway to caputre the payments for Cultural and Technical events organised during Infinitus’24.",
+    technologies: ["Next.js", "Chadcn/UI", "Three.js"],
   },
   {
-    title: "Portfolio Website",
+    title: "NoteIT | Note Sharing APP",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "The app was created to help 1,000 students share notes efficiently. It features Firebase Authentication for secure access and a real-time database for instant note uploads and sharing. With over 200 storage options and seamless synchronization across devices, the app enhances academic collaboration and resource accessibility for all users.",
+    technologies: ["Java", "Android Studio", "Firebase", "Material Design", "Figma"],
   },
   {
-    title: "Blogging Platform",
+    title: "Hotz | Food Ordering App",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "The idea behind building this app was to create a responsive, modern food delivery platform. Our goal was to provide users with an intuitive and visually appealing interface, ensuring seamless navigation and efficient order processing. This app aims to enhance the overall customer experience with 24/7 support and over 30 user-friendly features.",
+    technologies: ["Java", "Android Studio", "Firebase", "Material Design", "Figma"],
   },
 ];
 
