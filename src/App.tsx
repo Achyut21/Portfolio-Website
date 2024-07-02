@@ -8,6 +8,7 @@ import Experience from "./components/experience";
 import Projects from "./components/projects";
 import CONTACT from "./components/contact";
 import StarsCanvas from "./components/starBackground";
+import { Analytics } from "@vercel/analytics/react"
 
 function App() {
   const [count, setCount] = useState(0);
@@ -27,10 +28,11 @@ function App() {
         src="src/assets/blackhole.webm"
         type="video/webm"
         className="absolute rotate-180 top-[-340px] left-0 w-[700px] h-[670px] lg:w-full lg:h-[700px] -z-10 object-cover overflow-hidden opacity-70"
-        autoPlay
+        autoPlay  
         loop
         muted
-      />     
+      />
+        <Analytics />     
         <NavBar />
         <Hero />
         <About />

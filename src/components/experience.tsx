@@ -15,10 +15,13 @@ const Experience = () => {
   return (
     <div className="border-b border-neutral-900 pb-4">
       <motion.h1 
-      initial={{ opacity: 0, scale: 0.8 }}
-      whileInView={{ opacity: 1, scale: 1 }}
-      transition={{ duration: 0.5 }}
-      className="my-20 text-center text-4xl">Experience</motion.h1>
+        initial={{ opacity: 0, scale: 0.8 }}
+        whileInView={{ opacity: 1, scale: 1 }}
+        transition={{ duration: 0.5 }}
+        className="my-20 text-center text-4xl"
+      >
+        Experience
+      </motion.h1>
       <div>
         {EXPERIENCES.map((experience, index) => (
           <div key={index} className="mb-8 flex flex-wrap lg:justify-center">
@@ -41,10 +44,17 @@ const Experience = () => {
               <h6 className="mb-2 font-semibold">
                 {experience.role} - <span className="text-sm text-purple-100">{experience.company}</span>
               </h6>
-              <p className="mb-4 text-neutral-400">{experience.description}</p>
-              {experience.technologies.map((tech, techIndex) => (
-                <span key={techIndex} className="mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-800">{tech}</span>
-              ))}
+              <p className="mb-2 text-neutral-400">{experience.description}</p>
+              <div className="flex flex-wrap gap-2">
+                {experience.technologies.map((tech, techIndex) => (
+                  <span
+                    key={techIndex}
+                    className="mr-2 mb-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-400"
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
             </motion.div>
           </div>
         ))}
