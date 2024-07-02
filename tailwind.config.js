@@ -5,7 +5,13 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      zIndex: {
+        '-10': '-10',
+        '-2': '-2',
+        '-1': '-1',
+      },
+    },
   },
   plugins: [],
 }
