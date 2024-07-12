@@ -4,7 +4,7 @@ import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 //All the details about the website is mentioned below
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 3 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
 export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
 
@@ -36,7 +36,7 @@ export const EXPERIENCES = [
     role: "Technical Executive",
     company: "Student Council | SRM University - AP",
     description: `As a Technical Executive in the student council, I led the tech team, managing digital tools for events and communication. I ensured smooth technical operations, handled 135 projects, supported 80+ events, troubleshot issues, trained members on software, and implemented innovative tech solutions to enhance the council's efficiency and outreach.`,
-    technologies: [ "next.js+chadcn/ui", "Cloudflare","Canva", "Photoshop", "After Effects"],
+    technologies: [ "next.js+shadcn/ui", "Cloudflare","Canva", "Photoshop", "After Effects"],
   },
 ];
 
@@ -53,7 +53,7 @@ export const PROJECTS = [
     image: project2,
     description:
       "Led the development of the Infinitus Fest website, attracting 20,000 students with 6,000 registrations across 10 events, and emphasizing crowd loading optimization. Integrated payment gateway to caputre the payments for Cultural and Technical events organised during Infinitus’24.",
-    technologies: ["Next.js", "Chadcn/UI", "Three.js"],
+    technologies: ["Next.js", "shadcn/UI", "Three.js"],
   },
   {
     title: "NoteIT | Note Sharing APP",
