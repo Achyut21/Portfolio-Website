@@ -1,30 +1,36 @@
-# React + TypeScript + Vite
+# Achyut Katiyar Portfolio (Previous Version)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive portfolio website built with React, Tailwind CSS, and Framer Motion. Visit the new version at [https://github.com/Achyut21/achyut-portfolio](https://github.com/Achyut21/achyut-portfolio).
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This portfolio website showcases my projects, skills, and experience with an interactive interface and smooth animations. It features a responsive design that works seamlessly across all devices, with thoughtful animations and transitions to enhance the user experience.
 
-## Expanding the ESLint configuration
+## Technologies
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **React.js** - Frontend framework
+- **TypeScript** - Type-safe JavaScript
+- **Tailwind CSS** - Utility-first styling
+- **Framer Motion** - Animations and transitions
+- **Vercel** - Deployment platform
 
-- Configure the top-level `parserOptions` property like this:
+## Using This Template
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+If you'd like to use this template for your own portfolio website:
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+1. **Required Attribution**: 
+   - Maintain credit in the footer: "Design inspired by Achyut Katiyar"
+   - Include attribution link in your README
+
+2. **Customization Requirements**:
+   - Replace all personal information with your own
+   - Modify the color scheme or layout to make it unique
+   - Use your own projects, experience, and skill data
+
+## Credits
+
+- Design & Development: [Achyut Katiyar](https://github.com/achyut21)
+
+---
+
+© 2025 Achyut Katiyar. All Rights Reserved.
