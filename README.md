@@ -4,7 +4,7 @@ A responsive portfolio website built with React, Tailwind CSS, and Framer Motion
 
 ## Overview
 
-This portfolio website showcases my projects, skills, and experience with an interactive interface and smooth animations. It features a responsive design that works seamlessly across all devices, with thoughtful animations and transitions to enhance the user experience.
+This portfolio website showcases my projects, skills, and experience with an interactive interface and smooth animations. It features a responsive design that works seamlessly across all the  devices, with thoughtful animations and transitions to enhance the user experience.
 
 ## Technologies
 
